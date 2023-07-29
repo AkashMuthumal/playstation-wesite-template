@@ -1,0 +1,99 @@
+.content {
+    display: grid;
+    grid-template-columns: 4fr 3.5fr 1.2fr;
+}
+
+.product-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.product-name {
+    font-size: 4vw;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.product-description {
+    color: gray;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.product-type {
+    font-size: 1vw;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buy-now-button{
+    width: 9vw;
+    font-size: 0.8vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(90deg, #ff469f, #ff6062);
+}
+
+.color-line {
+    position: absolute;
+    width: 0.5vw;
+    height: 15vw;
+    background: linear-gradient(#ff469f, #ff6062);
+    display: flex;
+    margin-left: -25px;
+}
+
+.product-image-container {
+    display: flex;
+    position: relative;
+}
+
+.controller-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.add-image {
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-text {
+    color: white;
+    font-size: 8px;
+}
+
+.add-to-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    margin-left: 50%;
+    background: linear-gradient(#ff469f, #ff6062);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: -1;
+}

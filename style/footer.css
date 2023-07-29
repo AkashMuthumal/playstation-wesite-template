@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 5vw;
+}
+
+.social-media-logo-container {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
